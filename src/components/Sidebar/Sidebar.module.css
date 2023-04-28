@@ -1,0 +1,43 @@
+.container {
+    height: 895px;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    z-index: 10;
+    background-color: white;
+    transition: all .2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.arrow {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.sideData {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.data {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}

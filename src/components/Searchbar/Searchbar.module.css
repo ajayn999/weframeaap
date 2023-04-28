@@ -1,0 +1,35 @@
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 53px;
+  margin: 10px 0;
+}
+
+.searchBox input {
+  padding: 16px 20px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+.searchBox input::placeholder {
+  color: #979797;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  background: black;
+  padding: 20px 41px;
+  gap: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 0;
+  height: 100%;
+}

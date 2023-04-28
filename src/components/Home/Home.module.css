@@ -1,0 +1,10 @@
+.container {
+    padding: 40px;
+    flex: 1;
+}
+
+.row__heading {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 41px;
+}

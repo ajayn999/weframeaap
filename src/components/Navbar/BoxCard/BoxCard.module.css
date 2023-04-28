@@ -1,0 +1,10 @@
+.box__card {
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: auto;
+}
